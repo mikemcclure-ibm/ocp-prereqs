@@ -1,3 +1,4 @@
+clear
 echo "This will install and configure libvirt kvm qemu extrapackages-epel web fetch and Git programs"
 echo "Press ctrl+c to cancel"
 sleep 10 
@@ -5,7 +6,7 @@ echo "subscription-manager register --username=<user_name> --password=<password>
 sleep 1
 echo "Installing install dnf wget"
 sleep 1
-yum install dnf wget git -y
+yum install dnf wget -y
 sleep 1
 echo "Installing prereqs"
 sleep 5

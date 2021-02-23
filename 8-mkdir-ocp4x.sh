@@ -1,5 +1,7 @@
-mkdir /root/ocp4 && cd /root/ocp4
+clear
+mkdir /root/ocp4 
 echo "Done"
+mkdir cd /root/ocp4/
 pwd
 echo "Fetching Openshift Container Platform instalation"
 sleep 1 
