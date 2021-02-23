@@ -1,7 +1,7 @@
 clear
 echo "This will install and configure libvirt kvm qemu extrapackages-epel web fetch and Git programs"
 echo "Press ctrl+c to cancel"
-sleep 10 
+sleep 10
 echo "subscription-manager register --username=<user_name> --password=<password>"
 sleep 1
 echo "Installing install dnf wget"
@@ -16,4 +16,3 @@ dnf install -y virt-manager libvirt-devel libvirt-daemon-kvm libvirt-daemon-driv
 echo "virt-manager  libvirt-devel libvirt-daemon-kvm libvirt-daemon-driver-network install com-plete"
 dnf install -y libguestfs-tools
 echo "libguestfs-tools install complete"
-
