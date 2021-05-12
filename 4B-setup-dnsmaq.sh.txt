@@ -1,0 +1,4 @@
+# Note this is only used in default network to enable the embeded dnsmasq for NM not a stand alone dnsmasq
+#enable dnsmasq on sm for local http and dns
+echo "echo -e "[main]\ndns=dnsmasq" > /etc/NetworkManager/conf.d/nm-dns.conf
+systemctl restart NetworkManager"

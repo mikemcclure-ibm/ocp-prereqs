@@ -1,0 +1,11 @@
+# Note this is used to install a authoritive dnsmasq and dhcp server used in a host-bridge configuration
+yum -y install screen
+dnf install dnsmasq -y
+sleep 1
+systemctl enable dnsmasq
+systemctl start dnsmasq
+systemctl status dnsmsasq
+ 
+sleep 1
+echo "The dnsmasq configuration file is /etc/dnsmasq.conf there is a sample conf file in the git package for reference"
+echo "----> The Virtual machines will populate a file in /etc/dnsmasq.d/"clustername.conf" for the OCP cluster
