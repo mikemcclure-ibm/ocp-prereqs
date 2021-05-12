@@ -1,3 +1,0 @@
-#enable dnsmasq on sm for local http and dns
-echo "echo -e "[main]\ndns=dnsmasq" > /etc/NetworkManager/conf.d/nm-dns.conf
-systemctl restart NetworkManager"
